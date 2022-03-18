@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/chomsky" type="text/css"/>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgrey;
+        }
+        header {
+            background-color: rgba(70, 70, 70, 0.336);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+        }
+        h1 {
+            font-family: 'ChomskyRegular';
+                font-weight: normal;
+                font-style: normal;
+            font-size: 3em;
+            text-align: center;
+        }
+        nav{
+            background-color: rgba(82, 82, 82, 0.829);
+            padding: 3px;
+            margin-right: 10px;
+            margin-left: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: rgba(70, 70, 70, 0.336);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.418);
+            border-radius: 20px;
+        }
+        article > h2 {
+            color: rgba(0, 0, 0, 0.877);
+            background-color:  rgba(235, 235, 235, 0.692);
+            padding: 10px;
+            margin:10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.205);
+        }
+        article > aside {
+            color: rgb(0, 0, 0);
+            text-align: center;
+            font-weight: bold;
+            background-color: rgba(104, 104, 104, 0.534);
+            margin-right: 10px;
+            margin-left: 10px;
+            
+        }
+        article > p {
+            text-align: justify;
+            font-weight: bold;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        footer {
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jornal de noticias</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Flamengo empata com madureira mas segue líder</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora necessitatibus vitae, maxime ducimus dignissimos quos labore nemo obcaecati ut magni qui distinctio repellat itaque nostrum, et numquam iste minima odio!</p>
+            </article>
+            <article>
+                <h2>BBB22</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi omnis fugit possimus perferendis dolore assumenda commodi enim cupiditate quisquam repudiandae consectetur laudantium inventore vel quo veritatis officiis, eos repellendus vero!</p>
+            </article>
+            <article>
+                <h2>Monark perdeu tudo e vai jogar no vasco</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque repellendus veritatis unde deleniti magni, aperiam suscipit ut quaerat iusto eius enim modi. Ad quidem ducimus deleniti natus saepe dolorum a.</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam tempore ducimus quasi sed explicabo a impedit maxime, molestiae, harum beatae libero facilis omnis velit earum fugiat reprehenderit dolorem voluptas! Dolor?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <h2>Noticia sobre Criminalidade</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo magni molestiae earum illum ratione, explicabo sit, sint culpa eligendi, saepe labore inventore! Repellendus dolores aliquid architecto ullam perspiciatis tempore porro!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Renan Perin Ribeiro</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

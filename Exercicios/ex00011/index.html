@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+    <audio preload="metadata" controls loop>
+        <!-- auto = So vai considerar que o site terminou de carregar apos carregar o audio tambem // metadata = Ele vai carregar so o nome do arquivo e algumas informacoes // none = nao vai cerregar nada -->
+        <source src="midia/degress-under.mp3" type="audio/mpeg">
+        <source src="midia/degress-under.ogg" type="audio/ogg">
+        <source src="midia/degress-under.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao consegue reproduzir audio <a href="midia/degress-under.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+    <!-- MP3 WAV OGG-->
+</body>
+</html>
